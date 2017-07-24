@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>enterprise.hanadaetoo.SmartHanaConference</string>
+				<string>com.app.shd.pstock.beta</string>
 				<key>bundle-version</key>
 				<string>1.16.00</string>
 				<key>kind</key>
