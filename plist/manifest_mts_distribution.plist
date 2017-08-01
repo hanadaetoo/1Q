@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://dl.dropboxusercontent.com/s/1qnddh6thmnlcme/1qmts.ipa?dl=0</string>
+					<string>https://dl.dropboxusercontent.com/s/s4b9l01fyel8e9z/1qmts.ipa?dl=0</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -31,7 +31,7 @@
 				<key>bundle-identifier</key>
 				<string>com.app.shd.pstock.beta</string>
 				<key>bundle-version</key>
-				<string>1.16.00</string>
+				<string>1.20.00</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
