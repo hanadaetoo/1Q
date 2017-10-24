@@ -23,8 +23,10 @@
 					<string>software-package</string>
 
 					<key>url</key>
-
+					<!--
 					<string>https://dl.dropboxusercontent.com/s/4afcm9yxwhassmo/1qaccount.ipa?dl=0</string>
+					-->
+					<string>https://with.hanaw.com:444/smart/appl/paccount_2.05.00_normal.ipa</string>
 
 				</dict>
 
