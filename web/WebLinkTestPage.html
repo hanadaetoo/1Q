@@ -4,24 +4,44 @@
 	<meta charset="utf-8">
 	<title>window.location으로 웹 사이트 접속3</title>
 	<script type="text/javascript">
-		function load() {
+		function load() 
+		{
 			window.location="callScreenMethod://Get5STARMember:notMember;";
 		}
 		
-		function load1() {
+		function load1() 
+		{
 			window.location="callScreenMethod://Get5STARMember=notMember;";
 		}
 		
-		function load2() {
+		function load2() 
+		{
 			window.location="callScreenMethod://?Get5STARMember=notMember;";
 		}
 		
-		function load3() {
+		function load3() 
+		{
 			window.location="callScreenMethod://?Get5STARMember:notMember;";
 		}
 		
-		function load4() {
+		function load4() 
+		{
 			window.location="Hana1QAccount://";
+		}
+		
+		function load5() 
+		{
+			window.location="Hana1QAccount";
+		}
+		
+		function load6() 
+		{
+			window.location="hana1qaccount://";
+		}
+		
+		function load7() 
+		{
+			window.location="Hana1QMTSBridge://";
 		}
 	</script>
 </head>
@@ -45,8 +65,20 @@
 </p>
 
 <p>
-	<button onclick="load4()">비대면 접속 테스트</button>
-</p>		
+	<button onclick="load4()">비대면 접속 테스트1</button>
+</p>
+	
+<p>
+	<button onclick="load5()">비대면 접속 테스트2</button>
+</p>
+	
+	<p>
+	<button onclick="load6()">비대면 접속 테스트3</button>
+</p>
+
+<p>
+	<button onclick="load7()">MTS 접속 테스트</button>
+</p>
 	
 </body>
 </html>
