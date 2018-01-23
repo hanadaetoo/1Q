@@ -9,9 +9,19 @@
 			window.location="Hana1QAccount://";
 		}
 		
-		function load_openscreen() 
+		function load_openscreen_type1() 
 		{
 			window.location="Hana1QAccount://openscreen?screenNumber=6900&openData=";
+		}
+		
+		function load_openscreen_type2() 
+		{
+			window.location="Hana1QAccount://openscreen?screenNumber=6900&openData=";
+		}
+		
+		function load_openscreen_type3() 
+		{
+			window.location="Hana1QAccount://openscreen?screenNumber=1234&openData=111";
 		}
 	</script>
 </head>
@@ -19,11 +29,15 @@
 <h3>웹 연동 테스트 페이지</h3>
 <hr>	
 <p>
-	<button onclick="load_noopenscreen()">비대면계좌개설 웹 연동 테스트 링크 1</button>
+	<button onclick="load_noopenscreen()">비대면계좌개설 웹 연동 테스트 링크1 (화면 미지정)</button>
 </p>
 	
 <p>
-	<button onclick="load_openscreen()">비대면계좌개설 웹 연동 테스트 링크 2</button>
+	<button onclick="load_openscreen_type2()">비대면계좌개설 웹 연동 테스트 링크2 (화면 지정 & 있음 / 오픈데이터 없음)</button>
+</p>
+
+<p>
+	<button onclick="load_openscreen_type3()">비대면계좌개설 웹 연동 테스트 링크3 (화면 지정 & 없음 / 오픈데이터 있음)</button>
 </p>
 	
 </body>
