@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>웹 연동 테스트 페이지</title>
+	<title>웹 연동 테스트 페이지1</title>
 	<script type="text/javascript">
 		function load_noopenscreen_type1() 
 		{
@@ -31,7 +31,7 @@
 	</script>
 </head>
 <body>
-<h3>웹 연동 테스트 페이지</h3>
+<h3>웹 연동 테스트 페이지1</h3>
 <hr>	
 <p>
 	<button onclick="load_noopenscreen_type1()">    
@@ -55,83 +55,3 @@
 	
 </body>
 </html>
-
-<!--
-<!DOCTYPE html>
-<html lang="ko">
-	
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-</head>
-	
-<body>
-
-	<div>
- 
-		<a href="callscreenmethod://ClickDetailButton:1'P5811P33'0;실시간 수급 솔루션 THE HINT 출시;https://www.hanaw.com/main/customer/customer/CS_061600_P.cmd"></a> 
-		<a href="callscreenmethod://ClickDetailButton:1'P5811P33'0;실시간 수급 솔루션 THE HINT 출시;https://www.hanaw.com/main/customer/customer/CS_061600_P.cmd">테스트 링크</a>
-
-		window.location = "callscreenmethod://ClickDetailButton:1'P5811P33'0;실시간 수급 솔루션 THE HINT 출시;https://www.hanaw.com/main/customer/customer/CS_061600_P.cmd"
-		window.location.assign("callscreenmethod://ClickDetailButton:1'P5811P33'0;실시간 수급 솔루션 THE HINT 출시;https://www.hanaw.com/main/customer/customer/CS_061600_P.cmd")
-	</div>
-
-</body>
-</html>
--->
-
-
-<!--
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-</head>
-<body>
-  <div id="content" role="main">
-    <ul>
-      <li>증권사명<br>
-      <input type="button" onclick="executeHtsOnIphoneAsk('c9', '035420');" value="아이폰 호가">
-      <input type="button" disabled onclick="alert('미구현');" value="아이폰 주문"><br>
-      <input type="button" onclick="executeHtsOnAndroidAsk('c9', '035420');" value="안드로이드 호가">
-      <input type="button" disabled onclick="alert('미구현');" value="안드로이드 주문"><br>
-      </li>
-    </ul>
-  </div>
-  <hr>
-  <script type="text/javascript"> 
-    function executeHtsOnIphoneAsk(tradeCompanyCode, itemcode)
-    {
-      var appstoreUrl = ''; 
-      var executeUrl = ''; 
-      switch (tradeCompanyCode) 
-      { 
-        case 'c9': 
-          // 증권사명 
-          appstoreUrl = "https://itunes.apple.com/kr/app/1q-mts/id1134455259?mt=8"; 
-          executeUrl = "Hana1QMTSBridge://openScreen?screenNumber=3000"; 
-        break; 
-      } 
-      var clickedAt = +new Date; 
-      var appCheckTimer = setTimeout(function() { 
-        if (+new Date - clickedAt < 2000) { 
-          if (window.confirm("매매프로그램이 설치되어 있지 않습니다.\n설치페이지로 이동하시겠습니까?")) { 
-            location.href = appstoreUrl; 
-          } 
-        } 
-      }, 1500); 
-      location.href = executeUrl; 
-    } 
-    function executeHtsOnAndroidAsk(tradeCompanyCode, itemcode) 
-    { 
-      var intentUrl = ''; 
-      switch (tradeCompanyCode) { 
-        case 'c9': // 증권사명
-          intentUrl = "intent://openScreen?screenNumber=5603#Intent;scheme=SmartHanaHTBridge;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.app.shd.pstock;end;"; 
-        break; 
-      } 
-      location.href = intentUrl; 
-    } 
-  </script>
-  </body>
-  </html>
--->
