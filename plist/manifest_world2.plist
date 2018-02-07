@@ -17,19 +17,19 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://hanadaetoo.github.io/1Q/image/icon_mts.png</string>
+					<string>https://hanadaetoo.github.io/1Q/image/icon_world.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://hanadaetoo.github.io/1Q/image/icon_mts.png</string>
+					<string>https://hanadaetoo.github.io/1Q/image/icon_world.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.app.shg.fuop.dev</string>
+				<string>com.app.shg.pfuop.dev</string>
 				<key>bundle-version</key>
 				<string>2.00.00</string>
 				<key>kind</key>
