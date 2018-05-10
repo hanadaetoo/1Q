@@ -37,8 +37,8 @@
 		<tr height="40">
         		<td align=center><a href="itms-services://?action=download-manifest&url=https://hanadaetoo.github.io/1Q/plist/manifest_mts.plist">1Q MTS<br>다운로드</a> </td>
 			<td> 검수&테스트용 </td>
-			<td align=center> 2.06.00 </td>
-			<td align=center> 2.06.00 </td>
+			<td align=center> 2.06.02 </td>
+			<td align=center> 2.06.02 </td>
        		</tr>
 		<!--
 		<tr height="40">
@@ -495,7 +495,7 @@
 				XCode9 / sdk9 사용
 			</td>
 		</tr>
-				<tr>
+		<tr>
 			<td align=center> 2018.05.09 </td>
 			<td>
 				MTS / 2.06.00 / 2.06.00<br>
@@ -503,6 +503,16 @@
 				- 올커버론 기능 수정<br>
 				- 양방향 암호화 공백값 암호화시 예외처리 추가<br>
 				- 수량 조회 키패드 관련 기능 수정<br>
+			</td>
+		</tr>
+		<tr>
+			<td align=center> 2018.05.10 </td>
+			<td>
+				MTS / 2.06.02 / 2.06.02<br>
+				- 계좌 변경시 내부적으로 현재 선택된 계좌정보 객체를 갱신하지 않아 문제가 되어 수정함<br>
+				- 계좌 변경시 edit컨트롤에 저장되어 있던 비밀번호를 셋팅해주는데 이런 경우에도 edit컨트롤의 OnEditComplete 이벤트를 주도록 수정함<br>
+				- 종목 마스터 파일이 없을 경우 캡션 메뉴의 종목검색기 메뉴가 정상적으로 나오지 않아 수정함<br>
+				- 메인 메뉴의 카테고리 메뉴는 스크롤 없이 전부 표시되고 남는 영역에 ExMenu가 표시되도록 수정함<br>
 			</td>
 		</tr>
 		</font>
