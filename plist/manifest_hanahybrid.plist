@@ -17,21 +17,21 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://hanadaetoo.github.io/1Q/image/icon_mts.png</string>
+					<string>https://hanadaetoo.github.io/1Q/image/icon_hanahybrid.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://hanadaetoo.github.io/1Q/image/icon_mts.png</string>
+					<string>https://hanadaetoo.github.io/1Q/image/icon_hanahybrid.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.app.shd.pstock.beta</string>
+				<string>com.app.shd.phybrid</string>
 				<key>bundle-version</key>
-				<string>1.16.00</string>
+				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
