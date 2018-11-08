@@ -13,6 +13,18 @@
 					<key>url</key>
 					<string>https://dl.dropboxusercontent.com/s/6xqds8v6kf4n6gu/hms_Ent_V2_Protect.ipa?dl=0</string>
 				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://</string>
+				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
@@ -22,8 +34,6 @@
 				<string>3.0</string>
 				<key>kind</key>
 				<string>software</string>
-				<key>subtitle</key>
-				<string>하나멤버스</string>
 				<key>title</key>
 				<string>하나멤버스</string>
 			</dict>
