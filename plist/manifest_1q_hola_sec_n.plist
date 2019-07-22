@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.app.shd.pstock</string>
+				<string>com.app.shd.spstock</string>
 				<key>bundle-version</key>
 				<string></string>
 				<key>kind</key>
