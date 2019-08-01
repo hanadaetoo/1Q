@@ -17,27 +17,28 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://hanadaetoo.github.io/1Q/image/icon_tab.png</string>
+					<string>https://hanadaetoo.github.io/1Q/image/icon_mts.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://hanadaetoo.github.io/1Q/image/icon_tab.png</string>
+					<string>https://hanadaetoo.github.io/1Q/image/icon_mts.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.app.shd.tstock.beta</string>
+				<string>com.app.shd.pstock.dev</string>
 				<key>bundle-version</key>
-				<string>1.16.00</string>
+				<string>2.31.00</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>1QTAB</string>
+				<string>1QMTS</string>
 			</dict>
 		</dict>
 	</array>
 </dict>
 </plist>
+
