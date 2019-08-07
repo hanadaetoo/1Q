@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.app.shd.pstock</string>
+				<string>com.hanadaetoo.SmartHanaAccount</string>
 				<key>bundle-version</key>
 				<string></string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>mts_jailbreak_y</string>
+				<string>account_jailbreak_y</string>
 			</dict>
 		</dict>
 	</array>
